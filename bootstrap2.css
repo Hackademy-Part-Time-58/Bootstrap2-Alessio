@@ -1,0 +1,19 @@
+.navbar a {
+    color: white;
+}
+
+body {
+    background-image: url(./split-fiction-key-2560x1080-21053.jpeg);
+    background-size: cover; 
+    
+}
+
+.carousel-inner {
+    max-height: 50vh;
+}
+
+.carousel-img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
