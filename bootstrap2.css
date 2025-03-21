@@ -17,3 +17,36 @@ body {
     object-fit: cover;
 }
 
+.navbar a:hover {
+    border: 1px solid red;
+    border-radius: 8px;
+    color: red;
+    
+}
+
+* {
+    font-family: "Plus Jakarta Sans",
+    sans-serif;;
+}
+
+.card-title:hover {
+    cursor:pointer;
+    color: red;
+}
+
+nav, header, main {
+    text-shadow: 2px 2px 9px black;
+}
+
+address a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.marker {
+    list-style: none;
+}
+
+footer a:hover {
+    color: red;
+}

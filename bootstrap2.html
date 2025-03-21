@@ -4,9 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Site</title>
+    <title>GameOver Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="./console-controller-icon-2048x2048-pmmusn7m.ico" type="image/x-icon">
     <link rel="stylesheet" href="./bootstrap2.css">
 </head>
 
@@ -14,14 +19,14 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-md bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-danger" href="#">GameOver s.r.l</a>
+            <h1 class="navbar-brand text-danger fs-4" href="#">GameOver s.r.l</h1>
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="https://www.amazon.it/" target="_blank">Home</a>
+                        <a class="nav-link" href="https://www.amazon.it/" target="_blank">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.google.com/storepages?q=amazon.com&c=US&v=19" target="_blank">Recensioni</a>
@@ -66,7 +71,7 @@
     <!-- Section Prodotti con Card -->
     <main>
         <div class="container-fluid mt-3">
-            <div class="row justify-content-evenly text-center">
+            <div class="row justify-content-evenly text-center mt-4">
                 <div class="col-sm-12 col-md-4 col-lg-3 p-3">
                     <div class="card border-black bg-dark text-white">
                         <img src="./ps5 card.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="PS5">
@@ -99,7 +104,7 @@
                         <div class="card-body">
                             <h5 class="card-title">NINTENDO SWITCH</h5>
                             <p class="card-text">
-                                Nintendo® Switch è una console casalinga rivoluzionaria che non solo si connette al televisore di casa, ma si trasforma anche in un sistema da gioco portatile.
+                                Nintendo® Switch è una console casalinga rivoluzionaria che non solo si connette al televisore, ma si trasforma anche in un sistema da gioco portatile.
                             </p>
                             <a href="https://www.amazon.it/Nintendo-Switch-Joy-Rosso-Neon/dp/B0BHDDH5W1/ref=sr_1_4?crid=9HADZV6UV0LW&dib=eyJ2IjoiMSJ9.7bHAA541CtV-eHxkxuXDt4APJz9OzM2msM7FD4NPERiN6TSHnzs_7skAsPSGhF0tKA0cEv_8xTdqyP6I_mtGGHusuSbl9fQzuo2HGxftsPKfuSbcmKeAFBLnLFR9vUdRmkCORc9uG45q4Yag-vxT771LjSLVJq7uNKH4g5Sj5E4q3akPl0t0b4232S1RuS-Qiwmflk1xZtZy5IKe-HfyMdQoSo6aR93h11DMT-dv1gOiTENQa-lzV51akyFMi7Ub-gPYGcXxIdW-uzH9XjRX1uQeRloAjWlYFn35Z-pgEm6-VXRAtohsw4Sp4xqgmW6E5s5FiYvoeazjeSwN7wuolU-oxBg7sfDEfCLygijEZ8-mkTgxkIhhw18vVA-kERhfZnpEOZ0LmU23GMxkqEDRfZAW6zhaMcENTXchtjNxibGXLRBm0RTWg5pVIhiU-pI3.ja3Ihna_ciAL5l2JOJ11tOqM_Tjrg-w2n5YbNNFFMAA&dib_tag=se&keywords=nintendo+switch&qid=1742583162&sprefix=nintendo+%2Caps%2C223&sr=8-4" class="btn btn-danger" target="_blank">Acquistala subito a 299€!</a>
                         </div>
@@ -109,8 +114,8 @@
         </div>   
     </main>
     
-    <!-- Faq -->
-    <footer class="d-flex justify-content-center align-items-center mb-3 mt-2">
+    <!-- Faq e dati -->
+    <section class="d-flex justify-content-center align-items-center mb-4 mt-4">
         <div class="accordion w-50" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -147,11 +152,30 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
+    </section>
+    
+    <!-- footer -->
+    <footer class="container-fluid">
+        <address class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-lg-5">
+            <ul class="d-flex flex-column flex-md-row gap-lg-5 justify-content-center align-items-center mb-0 marker">
+                <li><a href="#">GameOver S.r.l</a></li>
+                <li><a href="#">Frazione Aspio 211</a></li>
+                <li><a href="#">Ancona(AN) 60131</a></li>
+                <li><a href="#">tel:+393326578911</a></li>
+                <li><a href="#">mail:gameoversrl@gmail.com</a></li>
+            </ul>
+            <nav class="d-flex flex-column flex-md-row gap-lg-3 justify-content-center align-items-center">
+                <a href="https://www.facebook.com/GameStop" target="_blank"
+                rel="noopener noreferrer"><em>Facebook:</em>GameOver</a>
+                <a href="https://www.instagram.com/gamestop/" target="_blank"
+                rel="noopener noreferrer"><em>Instagram:</em>GameOver</a>
+                <a href="mailto:gameoversrl@gmail.com">Scrivici</a>
+                <a href="tel:3326578911">Chiamaci</a>
+            </nav>
+            <p class="mb-0 mb-sm-1 text-center">Gameover© S.r.l - 2025</p>
+        </address>
     </footer>
-    
-    
-    
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
